@@ -1,0 +1,28 @@
+{
+  "name": "xsat/nen",
+  "description": "Draft.js PHP Converter",
+  "homepage": "https://github.com/xsat/draft-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yuri Antonchyk",
+      "email": "yuri.antonchyk@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/xsat/draft-php/issues?state=open",
+    "source": "https://github.com/xsat/draft-php"
+  },
+  "require": {
+    "php": "^7.1.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Draft\\": "src/",
+      "Test\\": "tests/"
+    }
+  }
+}
